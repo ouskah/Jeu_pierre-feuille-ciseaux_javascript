@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html> 
+  
+  
+   <head>
+        <title>Jeu - Pierre Feuille Ciseaux</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="stylesheet" href="pfc.css">
+   </head>
+
+    <body>
+
+        <!-- <div class="container"> -->
+
+           
+           <h3>Jeu - Pierre * Feuille * Ciseaux</h3>
+           
+            <div class="intro">
+
+                <p id="consignes"> <strong><em>Consignes</em></strong> <br>
+
+                    <span>1- Vous jouez contre l'Ordi</span>
+                    <span>2- Faites un choix</span>
+                    <span>3- Cliquez sur GO</span>
+                </p>
+                <hr>
+                <p id="regles"> <strong><em>Règles du jeu</em></strong><br>
+                    - Pierre gagne sur Ciseaux <br>
+                    - Feuille gagne sur Pierre <br>
+                    - Ciseaux gagnent sur Feuille <br>
+                </p>
+
+            </div> <!-- fin div class intro -->
+
+            <div id="players">
+
+                <div class="joueur">
+
+                   <h3><strong>Joueur</strong></h3>
+
+                    <p> Faites un choix :  </p>
+
+                    <span>
+                        <select name="choix-joueur" id="choix-joueur">
+                        <option value=1>pierre</option>
+                        <option value=2>feuille</option>
+                        <option value=3>ciseaux</option>
+                        </select>   
+                    </span>
+
+                    <p>Victoires : </p>
+                    <p id="wins-joueur"></p>    
+
+                </div> <!-- fin div class joueur -->
+
+
+
+                <div class="ordi">
+
+                    <h3><strong>Ordi</strong></h3>
+
+                    <p> Choix de l'Ordi : </p>
+                    <p id="choix-ordi"> </p>
+                    
+                    <p>Victoires : </p>
+                    <p id="wins-ordi"> </p>    
+
+                </div> <!-- fin div class ordi -->
+
+            </div> <!-- fin div class players -->
+    
+          
+           <div id="action">
+
+                <div class="go">
+
+                    <p> Lancez le jeu ! </p>
+
+                    <button type="button" id="btn-go"> <strong> GO</strong> </button>
+
+                </div> <!-- fin div class go -->
+
+            
+                <div class="tour">
+                    
+                    <p>Tour n°: </p>
+                    <p id="nb-tours"></p>
+                    
+                    <p id="rt-tour"> </p>
+                    
+                </div> <!-- infos sur le nb de tours et le résultat du tour joué -->
+            </div>
+        
+        <!-- </div> fin div class container -->
+        
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+        <script type="text/javascript" src="jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="pfc.js"></script>
+
+    </body>
+
+</html>

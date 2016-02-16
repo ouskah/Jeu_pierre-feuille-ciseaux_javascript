@@ -1,0 +1,174 @@
+body{
+    
+    background-color:bisque;
+    
+}
+
+
+
+.container {
+	
+    
+    text-align: center;
+}
+
+
+h3 {
+    
+    text-align: center;
+}
+
+
+.intro {
+    
+    height: 150px;
+    width: 200px;
+    margin: auto auto 10px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    background-color: aquamarine;
+    padding: 5px 5px;
+    border: 1px solid #155;
+    
+}
+
+
+
+#consignes span {
+    display: block;
+    text-align: center;
+}
+
+
+#regles {
+    display: block;
+}
+
+
+
+
+.joueur, .ordi {
+    height: 200px;
+    width: 200px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+.joueur{
+    display: inline-block;
+    background-color: brown;
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+.ordi{
+    float: right;
+    margin-left: 20px;
+    margin-right: 300px;
+    background-color: coral;
+    text-align: center;
+}
+
+#choix-ordi {
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+#wins-ordi {
+	
+    display: inline-block;
+    
+}
+
+
+.go, .tour {
+	
+    height: 150px;
+    width: 150px;
+    border: 1px solid #125;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;    
+}
+
+.go {
+    display: inline-block;
+    margin-left: 450px;
+}
+
+
+.tour {
+
+    float: right;
+    margin-right: 450px;
+}
+
+.tour p {
+	   
+    display: inline-block;
+    
+}
+
+
+#rt-tour {
+	
+    display: inline-block;
+    
+}
+
+
+
+
+button { 
+    
+    display: inline-block;
+    
+    /* style par défault : taille-police-couleur-aligenement */
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 75px;
+    height: 43px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    color:darkred;
+    background-color:antiquewhite;
+    
+    /* dégradé 
+    background: linear-gradient (#555, #2C2C2C);
+    */
+    
+    
+    /* coins arrondis */
+    border-radius: 55px;
+    
+    /* effets de lumière
+    text-shadow: 0px 1px 0px rgba (255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5), 0 -1px 0 rgba( 255, 255, 255, 0.4);
+    */
+} 
+
+
+button:hover { /* le joueur passe la souris sur le bouton => éclaircir le dégradé */ 
+    
+     background-color:crimson;
+     background: #955;
+     background: linear-gradient( #999, #797);
+
+}
+
+button:active { /* le joueur clique sur le boutton => simulation état enfoncé */ 
+    
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
+    
+}
+
