@@ -19,4 +19,8 @@ Le jeu Pierre-Feuille-Ciseaux en Javascript
   Le comparer à l'élément choisi par le joueur pour voir qui a gagné entre l'humain et la machine.
 
 * Étape pour les plus aguerris :   
-  ajouter un compteur de victoires et de défaites et afficher le pourcentage de victoire contre l'ordinateur.
+  ajouter un compteur de victoires et de défaites et afficher le pourcentage de victoire contre l'ordinateur
+
+<br/>
+
+[A vous de jouer !](http://htmlpreview.github.io/?https://github.com/ouskah/Jeu_pierre-feuille-ciseaux_javascript/blob/master/pfc.html)
