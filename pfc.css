@@ -8,7 +8,6 @@ body{
 
 .container {
 	
-    
     text-align: center;
 }
 
@@ -48,28 +47,34 @@ h3 {
 
 
 
+#players {
+    display: flex;
+    flex-direction:row;
+    align-content: space-around;
+    align-items:center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
 .joueur, .ordi {
     height: 200px;
     width: 200px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
     border-radius: 10px;
 }
 
 
 
 .joueur{
-    display: inline-block;
     background-color: brown;
     text-align: center;
-    margin-left: 300px;
 }
 
 
 .ordi{
-    float: right;
     margin-left: 20px;
-    margin-right: 300px;
     background-color: coral;
     text-align: center;
 }
@@ -82,43 +87,42 @@ h3 {
 
 #wins-ordi {
 	
-    display: inline-block;
+    display: block;
     
 }
 
-
+#action {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+    
+}
 .go, .tour {
 	
     height: 150px;
-    width: 150px;
+    width: 300px;
     border: 1px solid #125;
     border-radius: 10px;
     padding: 5px;
     text-align: center;    
 }
 
-.go {
-    display: inline-block;
-    margin-left: 450px;
-}
-
-
 .tour {
-
-    float: right;
-    margin-right: 450px;
+    margin-left: 20px;
 }
 
 .tour p {
 	   
-    display: inline-block;
+    display: block;
     
 }
 
 
 #rt-tour {
 	
-    display: inline-block;
+    display: block;
     
 }
 
